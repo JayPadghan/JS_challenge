@@ -40,3 +40,28 @@ console.log(typeof myFunction);
 
 console.log(typeof heros);  // --> Objects
 // The data type of most of the non-primitive's is objects
+
+
+
+// *****************  Stack & Heap Memory *********************
+
+/* Stack memory is used by primitive datatypes ,therefore Call By Value concept is used in stack.
+While non-primitive datatypes use heap memory so Call By Reference concept is used.
+*/
+
+
+
+
+
+// 
+const num = 10
+
+const obj = {
+    a : 10,
+    b : 20
+};
+
+obj.a = 30;  // This will change the value of a in the object but not in the stack memory.
+console.log(obj.a);  // 30
+
+// But if we try to change the value of num , it will not change as it is stored in stack memory.
