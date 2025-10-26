@@ -64,5 +64,5 @@ console.log(college);   // instead of using  student.college_name
 
 
 
-// ***************** JSON *****************
+// ***************** JSON ****************
 //https://www.geeksforgeeks.org/javascript-json-objects/?ref=lbp
